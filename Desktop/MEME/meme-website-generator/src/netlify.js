@@ -1,6 +1,6 @@
 const NETLIFY_API_URL = 'https://api.netlify.com/api/v1';
-const NETLIFY_SITE_ID = 'YOUR_NETLIFY_SITE_ID'; // Replace with your Netlify site ID
-const NETLIFY_TOKEN = 'YOUR_NETLIFY_API_TOKEN'; // Replace with your Netlify API token
+const NETLIFY_SITE_ID = 'a33046aa-4431-4efd-b8f4-5a9b11b97d29'; // Replace with your Netlify site ID
+const NETLIFY_TOKEN = 'nfp_MAVG4acszFWRfz4UQHKNvfMdr9Zq1mrb145a'; // Replace with your Netlify API token
 
 export const deployToNetlify = async (subdomain, siteData) => {
   try {
