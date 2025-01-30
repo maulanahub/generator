@@ -13,7 +13,7 @@ export const deployToNetlify = async (subdomain, siteData) => {
       },
       body: JSON.stringify({
         name: subdomain, // Subdomain name
-        custom_domain: `${subdomain}.yourdomain.com`, // Replace with your domain
+        custom_domain: `${subdomain}.speechip.com`, // Replace with your domain
       }),
     });
 
